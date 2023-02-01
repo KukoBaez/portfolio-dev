@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>Rodrigo Baez | Portfolio</title>
+   <meta name="viewport" content="width=devide-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Noto+Serif&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css\css\assets\css\main.css"> 
+   <link rel="stylesheet" type="text/css" href="css\css\assets\css\fonts.css">
+   <link rel="stylesheet" type="text/css" href="css\css\assets\css\sections.css">
+   <link rel="stylesheet" type="text/css" href="css\css\assets\css\utils.css">
+   <link rel="stylesheet" type="text/css" href="css\css\assets\css\header.css">
+   <link rel="stylesheet" type="text/css" href="css\css\assets\css\nav.css">
+   <link rel="stylesheet" type="text/css" href="css\css\assets\css\portfolio.css">
+   <link rel="stylesheet" type="text/css" href="css\css\assets\css\skillset.css">
+   <link rel="stylesheet" type="text/css" href="css\css\assets\css\experience.css">
+   <link rel="stylesheet" type="text/css" href="css\css\assets\css\contact.css">
+
+
+  </head>
+  <body>
+     <header>
+      <img class="circle" src="html\assets\img\logos\large.png" alt="large logo">
+        <h1>Rodrigo Baez | Portfolio</h1>
+    <hr/>
+    <h2>Software engineer</h2>
+    <video autoplay loop muted>
+      <source src="html\assets\video\hero.mp4">
+    </video>
+   </header>
+    <nav id="navbar" class="open">
+      <div>
+        <a>
+          <img class="circle" src="html\assets\img\logos\small.png" alt="small logo">
+          <span>Rodrigo Baez <small>Software engineer</small></span>
+        </a>
+        <button id="hamburger">☰</button>
+      </div>
+      <ul>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skillset">Skillset</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+    </nav>
+    <main>
+      <section id="portfolio">
+        <h3>Portfolio</h3>
+        <hr/>
+        <div>
+          <button>
+            <img src="html\assets\img\portfolio\1.png">
+            <h4></h4>
+          </button>
+          <button>
+            <img src="html\assets\img\portfolio\2.png">
+            <h4></h4>
+          </button>
+          <button>
+            <img src="html\assets\img\portfolio\3.png">
+            <h4></h4>
+          </button>
+        </div>
+      </section>
+      <section id="skillset" class="even">
+        <h3>Skillset</h3>
+        <hr/>
+        <div>
+        <div>
+          <img src="html\assets\img\skillset\html.svg">
+          <span class="tooltip">HTML</span>
+        </div>
+        <div>
+          <img src="html\assets\img\skillset\css.svg">
+          <span class="tooltip">CSS</span>
+        </div>
+        <div>
+          <img src="html\assets\img\skillset\js.svg">
+          <span class="tooltip">JavaScript</span>
+        </div>
+        <div>
+          <img src="html\assets\img\skillset\git.svg">
+          <span class="tooltip">Git</span>
+        </div>
+        <div>
+          <img src="html\assets\img\skillset\npm.svg">
+          <span class="tooltip">Npm</span>
+        </div>
+        <div>
+          <img src="html\assets\img\skillset\bash.svg">
+          <span class="tooltip">Bash</span>
+        </div>
+        <div>
+          <img src="html\assets\img\skillset\node.svg">
+          <span class="tooltip">Node.js</span>
+        </div>
+        <div>
+          <img src="html\assets\img\skillset\react.svg">
+          <span class="tooltip">React</span>
+        </div>
+      </div>
+
+      </section>
+      <section id="experience">
+        <h3>Experience</h3>
+        <hr/>
+        <div>
+          <a>
+            <img src="html\assets\img\experience\1.svg">
+            <h4>Nintendo</h4>
+          </a>
+          <a>
+            <img src="html\assets\img\experience\2.svg">
+            <h4>Google</h4>
+          </a>
+          <a>
+            <img src="html\assets\img\experience\3.svg">
+            <h4>Fresh</h4>
+          </a>
+          <a>
+            <img src="html\assets\img\experience\4.svg">
+            <h4>Amazon</h4>
+          </a>
+          <a>
+            <img src="html\assets\img\experience\5.svg">
+            <h4>Otra más</h4>
+          </a>
+        </div>
+      </section>
+      <section id="contact" class="even">
+        <h3>Contact</h3>
+        <hr/>
+        <form action="https://formspree.io/f/{form_id}" method="post">
+          <label for="email">Your Email:</label>
+          <input name="Email" id="email" type="email">
+          <label for="message">Your message:</label>
+          <input name="Message" id="message" type="message">
+          <button type="submit">Submit</button>
+        </form>
+        <nav id="social-media">
+          <a href="">
+            <img id="linkedin" src="html\assets\img\social\linkedin.png">
+          </a>
+          <a href="">
+            <img id="github" src="html\assets\img\social\github.png">
+          </a>
+          <a href="">
+            <img id="youtube" src="html\assets\img\social\youtube.png">
+          </a>
+        </nav>
+      </section>
+    </main>
+    <footer>
+      <small>
+        Designed and developed by Rodrigo Baez. ©2023. All rights reserved.
+      </small>
+    </footer>
+    <script src="js\js\assets\js\main.js"></script>
+    <script src="js\js\assets\js\fixed.js"></script>
+    
+  </body>
+</html>
