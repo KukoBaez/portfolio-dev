@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-dev",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KukoBaez/portfolio-dev.git"
+  },
+  "author": "Rodrigo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KukoBaez/portfolio-dev/issues"
+  },
+  "homepage": "https://github.com/KukoBaez/portfolio-dev#readme",
+  "dependencies": {
+    "eins-modal": "^2.2.2",
+    "normalize.css": "^8.0.1"
+  }
+}
